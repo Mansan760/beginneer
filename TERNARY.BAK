@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int low;
+	clrscr();
+	printf("enter a low");
+	scanf("%d",&low);
+	(low<=122 && low>=99) ? printf("lower case") : printf("not lower case");
+
+	getch();
+
+}

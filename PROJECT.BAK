@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,sum,sub,div,por,choice;
+	clrscr();
+	printf("\n\t\t\tMENU");
+	printf("\n\t\t\t******");
+	printf("\n\t\t1)ADD\n\t\t2)Sub\n\t\t3)Division\n\t\t4)Product");
+
+	printf("\n\tEnter 1 numbers:");
+	scanf("%d",&a);
+	printf("enter the 2 number:");
+	scanf("%d",&b);
+	printf("Enter the choice:");
+	scanf("%d",&choice);
+	if(choice==1)
+		{
+				sum=a+b;
+				printf("%d",sum);
+		}
+	else if(choice==2)
+		{
+			sub= a-b;
+			printf("%d",sub);
+		}
+	else if(choice==2)
+		{
+			sub= a-b;
+			printf("%d",sub);
+		}
+	else if(choice==3)
+		{
+			div= a/b;
+			printf("%d",div);
+		}
+	else if(choice==4)
+		{
+			por=a*b;
+			printf("%d",por);
+		}
+	else
+		{
+			printf("enter less than or equal to 4");
+		}
+getch();
+}
+
+

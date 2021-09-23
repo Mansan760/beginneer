@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	char choice;
+	int a,b,sum,sub,div,mul;
+	clrscr();
+	printf("Menu");
+	printf("\n******");
+	printf("\na.Add\nb.Sub\nc.Div\nd.Mul");
+	printf("\nEnter two numbers:");
+	scanf("%d%d",&a,&b);
+	printf("\nEnter the choice you want:");
+	scanf("%c",&choice);
+	switch(choice)
+		{
+			case 'a':
+			sum=a+b;
+			printf("\nThe sum is %d",sum);
+			break;
+			case 'b':
+			sub=a-b;
+			printf("\nThe sub is %d",sub);
+			break;
+			case 'c':
+			div=a/b;
+			printf("\nThe div is %d",div);
+			break;
+			case 'd':
+			mul=a*b;
+			printf("\nThe mul is %d",mul);
+			break;
+			default:
+			printf("\nPlease enter between a to d");
+			break;
+		}
+return 0;
+}
